@@ -1,4 +1,4 @@
-# Personal vue-cli template
+# React new project template
 
 * @Author: TimsManter
 * @AuthorSite: [TimsManter.NET](http://timsmanter.net/)
