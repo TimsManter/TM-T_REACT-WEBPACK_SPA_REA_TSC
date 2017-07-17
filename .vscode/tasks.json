@@ -4,18 +4,28 @@
     {
       "taskName": "install",
       "command": "npm",
-      "args": ["install"]
+      "args": [
+        "install"
+      ]
     },
     {
       "taskName": "build:dev",
       "group": "build",
-      "command": "webpack"
+      "command": "webpack",
+      "args": [
+        "--env=dev"
+      ],
+      "problemMatcher": [
+        "$tslint5"
+      ]
     },
     {
       "taskName": "build:prod",
       "group": "build",
       "command": "webpack",
-      "args": ["--env.production"]
+      "args": [
+        "--env=prod"
+      ]
     },
     {
       "taskName": "start",
@@ -24,7 +34,9 @@
         "isDefault": true
       },
       "command": "webpack-dev-server",
-      "args": ["--open"]
+      "args": [
+        "--open"
+      ]
     }
   ]
 }
